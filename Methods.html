@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+  </head>
+
+  <body>
+    
+
+      <nav class="navbar navbar-expand-sm navbar-light bg-light flex-sm-nowrap flex-wrap">
+        <div class="container-fluid">
+            <button class="navbar-toggler flex-grow-sm-1 flex-grow-0 me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar5">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <span class="navbar-brand flex-grow-1"><img src = "https://gis.ucla.edu/sites/default/files/inline-blue.png" alt ="lorem ipsum" text-align="left" width="210" height="40"></span>
+            <div class="navbar-collapse collapse flex-grow-1 justify-content-center" id="navbar5">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item" style="font-size: 20px">
+                    <a class="nav-link" href="file:///Users/tcambe/Downloads/MDB5-STANDARD-UI-KIT-Free-6/Homepage.html">Project Home</a>
+                  </li>
+                  <li class="nav-item" style="font-size: 20px">
+                    <a class="nav-link" href="file:///Users/tcambe/Downloads/MDB5-STANDARD-UI-KIT-Free-6/StudyRegion.html">Study Region</a>
+                  </li>
+                  <li class="nav-item" style="font-size: 20px">
+                    <a class="nav-link active" href="#">Methods</a>
+                  </li>
+                  <li class="nav-item" style="font-size: 20px">
+                    <a class="nav-link" href="file:///Users/tcambe/Downloads/MDB5-STANDARD-UI-KIT-Free-6/Results.html">Results</a>
+                </li>
+                <li class="nav-item" style="font-size: 20px">
+                    <a class="nav-link" href="file:///Users/tcambe/Downloads/MDB5-STANDARD-UI-KIT-Free-6/Discussion.html">Discussion</a>
+                </li>
+                <li class="nav-item" style="font-size: 20px">
+                  <a class="nav-link" href="file:///Users/tcambe/Downloads/MDB5-STANDARD-UI-KIT-Free-6/References.html">References</a>
+                </li>
+                </ul>
+            </div>
+            <div class="flex-grow-1">
+                <!--spacer-->
+            </div>
+        </div>
+    </nav>
+
+    <h1 style="padding-top: 20px; padding-left: 20px;">Data Collection</h1>
+
+    <img src="https://blackmarble.gsfc.nasa.gov/images/Content/black_marble_processing.gif" ALIGN = "left" alt="NASA GIF" style="padding: 10px 10px 10px 25px;">
+    <h2 style="padding-top: 20px; padding-left: 50px; padding-right: 300px;">Part I: Quality of Life Assessment Using Night Light Change</h2>
+    <p style ="padding-right: 300px; padding-left: 100px; font-size: 20px;">	To examine how quality of life was affected, we analyzed night light changes before and after the earthquake to determine the frequency of power outages in our region of interest. 
+        Two images were taken from NASA’s Black Marble, which is a “...daily calibrated, corrected, and validated product suite” that uses the Visible Infrared Imaging Radiometer Suite (VIIRS) satellite, a component of Suomi NPP. 
+        This map is displayed in a Blue/Yellow composite to easily see the night lights. We used images taken on days with the least amount of clouds. The first image was taken on January 26, 2023 while the second image was taken on February 13, 2023. 
+        The before and after images are shown side by side to assess changes. While we were able to obtain a visualization of the night lights, the data table provided with this instrument only included information about the entirety of the Middle East, 
+        outside of our affected regions of interest, thus we were unable to get numeric information for our study. </p>
+  
+    <h3 style="padding-top: 20px; padding-left: 20px; padding-top: 300px;">Part II: Assessing Damage Using Landsat 8 Data </h3>
+    <p style = "font-size: 20px; padding-left: 50px; padding-right: 50px;">	To assess the infrastructure damage of the Kahramanmaras earthquake, two Landsat 8 images were downloaded from  Landsat Collection 2 Level-2 using the USGS Earth Explorer tool. 
+        Both images were taken on days with less than 15% cloud cover. For this project, we use 30 meter resolution data to assess the larger terrain. The first image was taken on January 5, 2023, 
+        one month before the earthquake. The second image was taken on February 22, 2023, twelve days after the main earthquake. Since both images were acquired in a short period of time from each other, 
+        there is little influence from seasonal changes in landscape. The images in our analysis were placed into the ENVI software for further analysis. The images were then displayed using a true color band combination to see visible infrastructure damages. 
+        These images were then sharpened to show the finer details of specific urban areas and any areas of change. We then calculated the spectral profile of our major urban area, Aleppo, Syria before and after the earthquake to numerically assess the differences 
+        in reflectance due to collapsed buildings. The before and after  images were compared side by side as shown in the images below. Our results show different urban areas that showed major differences. However, with the limitation of 30 meter resolution data from Landsat, 
+        we also used high resolution data obtained from Planet Labs and MAXAR to further assess damage.</p>
+
+    <img src="https://lh6.googleusercontent.com/rIyKv1Cofm6zk_yjTyBSTkZf9Rn7gnuziIKRpJ4RIPgllTmMDTseywZ2thgH8UywGq4mh-KAtZTCsVqanV41H5wnMWKgJ2U4mqP1BMgR2O8st_NKpfpKiT5XkVgGuHopix2GMKcmxw--uY0ov2Sciak" ALIGN = "left" alt="Part 2 Image 1" style="padding: 10px 10px 10px 10%;">
+ 
+    <img src="https://lh6.googleusercontent.com/MnMA-VL4k29U0sDSlX6NWydEgiWDFXIdlGJ5RlVQaH8o-OzWCnBeCNIteh7psPvEaXD0__-EiDfEqHRoYD8ip8DSw3tt21-Jqa-G-7k02srS3mMobljhJFyFbK4_ccukIIkyssgHd4hFD8EXKcswvUY" alt="Part 2 Image 2" style="padding: 10px 10px 10px 25px;">
+
+    <p style = "font-size: 20px; padding-left: 10%;">Taken on 05 January 2023 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        
+        Taken on 02 February 2023</p>
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <footer style="background-color: #2D68C4; color: white; padding-top: 25px; padding-left: 25px; bottom: 0px;">
+        <p style="font-size: 30px;"><b>UCLA Geography: Winter 2023</b></p>
+        <p>GEOG 182A: Introduction to Remote Sensing</p>
+        <p>Theresa Cambe | Michael Harrison | Marily Lopez | Nadia Sawaf</p> <br/>
+      
+      </footer>
+  </body>
+</html>
